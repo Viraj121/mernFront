@@ -12,7 +12,7 @@ const LoginSignup = () => {
 
   const login = async () => {
     let dataObj;
-    await fetch('https://mernback-eezd.onrender.com/login', {
+    await fetch('https://ecommerce-app-backend-5hrm.onrender.com/login', {
       method: 'POST',
       headers: {
         Accept: 'application/form-data',
@@ -34,7 +34,7 @@ const LoginSignup = () => {
 
   const signup = async () => {
     let dataObj;
-    await fetch('https://mernback-eezd.onrender.com/signup', {
+    await fetch('https://ecommerce-app-backend-5hrm.onrender.com/signup', {
       method: 'POST',
       headers: {
         Accept: 'application/form-data',
